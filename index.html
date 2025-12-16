@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Populares Mérida - Guía Actualizada</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .update-time {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            background: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .filter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .places-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .place-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .place-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        .place-rank {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.3em;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .place-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            padding-right: 60px;
+        }
+
+        .place-address {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .place-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .stat {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .popularity-bar {
+            width: 100%;
+            height: 25px;
+            background: #e0e0e0;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .popularity-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9em;
+            transition: width 1s ease-out;
+        }
+
+        .popularity-fill.hot {
+            background: linear-gradient(90deg, #FF5722, #FF9800);
+        }
+
+        .score-breakdown {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .score-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 0.9em;
+        }
+
+        .score-label {
+            color: #666;
+        }
+
+        .score-value {
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin: 5px 5px 5px 0;
+        }
+
+        .badge-trending {
+            background: #FF5722;
+            color: white;
+        }
+
+        .badge-toprated {
+            background: #FFC107;
+            color: #333;
+        }
+
+        .badge-hidden {
+            background: #9C27B0;
+            color: white;
+        }
+
+        .chart-container {
+            margin-top: 15px;
+            display: none;
+        }
+
+        .chart-container.active {
+            display: block;
+        }
+
+        .day-chart {
+            margin: 10px 0;
+        }
+
+        .day-name {
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .day-bar {
+            width: 100%;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .day-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: width 0.5s ease-out;
+        }
+
+        .toggle-chart {
+            background: #f0f0f0;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85em;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+
+        .toggle-chart:hover {
+            background: #e0e0e0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .places-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .place-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Lugares Populares en Mérida</h1>
+            <p>Descubre los mejores lugares basado en datos reales de Google Maps</p>
+            <div class="update-time" id="updateTime">Última actualización: Cargando...</div>
+        </header>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterPlaces('all')">🌟 Todos</button>
+            <button class="filter-btn" onclick="filterPlaces('trending')">🔥 Trending</button>
+            <button class="filter-btn" onclick="filterPlaces('toprated')">⭐ Top Rated</button>
+            <button class="filter-btn" onclick="filterPlaces('hidden')">💎 Hidden Gems</button>
+        </div>
+
+        <div class="places-grid" id="placesGrid">
+            <!-- Los lugares se cargarán aquí -->
+        </div>
+    </div>
+
+    <script>
+        // Variable para almacenar los datos
+        let placesData = null;
+
+        // Datos de respaldo en caso de que no se pueda cargar el JSON
+        const fallbackData = {
+            fecha_generacion: new Date().toISOString(),
+            ranking: [
+                {
+                    lugar: "Yerba Santa Mérida",
+                    score_total: 7.87,
+                    desglose: {
+                        popularidad_actual: 9.8,
+                        rating: 9.2,
+                        volumen_reviews: 7.99,
+                        tendencia_semanal: 2.21,
+                        consistencia: 7.04
+                    },
+                    datos_raw: {
+                        popularidad_ahora: 98,
+                        rating: 4.6,
+                        total_reviews: 1571,
+                        direccion: "P.º de Montejo 473, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc."
+                    },
+                    populartimes: [45, 50, 48, 65, 75, 90, 45],
+                    badges: ['trending']
+                },
+                {
+                    lugar: "Trattoria La Pasta Montejo",
+                    score_total: 7.86,
+                    desglose: {
+                        popularidad_actual: 8.1,
+                        rating: 9.6,
+                        volumen_reviews: 10,
+                        tendencia_semanal: 1.77,
+                        consistencia: 7.62
+                    },
+                    datos_raw: {
+                        popularidad_ahora: 81,
+                        rating: 4.8,
+                        total_reviews: 25123,
+                        direccion: "P.º de Montejo 481, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc."
+                    },
+                    populartimes: [35, 40, 45, 50, 70, 85, 55],
+                    badges: ['trending', 'toprated']
+                },
+                {
+                    lugar: "Micaela Mar & Leña",
+                    score_total: 6.5,
+                    desglose: {
+                        popularidad_actual: 4.4,
+                        rating: 9.4,
+                        volumen_reviews: 8.88,
+                        tendencia_semanal: 2.06,
+                        consistencia: 7.44
+                    },
+                    datos_raw: {
+                        popularidad_ahora: 44,
+                        rating: 4.7,
+                        total_reviews: 3568,
+                        direccion: "Calle 47 458, Centro, 97000 Mérida, Yuc."
+                    },
+                    populartimes: [40, 42, 38, 55, 70, 95, 45],
+                    badges: ['toprated']
+                },
+                {
+                    lugar: "Manjar Blanco",
+                    score_total: 5.08,
+                    desglose: {
+                        popularidad_actual: 0,
+                        rating: 9.2,
+                        volumen_reviews: 8.68,
+                        tendencia_semanal: 2.42,
+                        consistencia: 6.85
+                    },
+                    datos_raw: {
+                        popularidad_ahora: null,
+                        rating: 4.6,
+                        total_reviews: 2977,
+                        direccion: "Calle 47 496, entre 58 y 60, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc."
+                    },
+                    populartimes: [50, 48, 50, 60, 65, 70, 85],
+                    badges: ['hidden']
+                }
+            ]
+        };
+
+        // Intentar cargar datos desde ranking_merida.json
+        function loadData() {
+            fetch('ranking_merida.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('No se pudo cargar el archivo JSON');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    placesData = data;
+                    console.log('✅ Datos cargados desde ranking_merida.json');
+                    initPage();
+                })
+                .catch(error => {
+                    console.warn('⚠️ Usando datos de ejemplo:', error);
+                    placesData = fallbackData;
+                    initPage();
+                });
+        }
+
+        let currentFilter = 'all';
+
+        function initPage() {
+            // Actualizar fecha
+            const updateTime = new Date(placesData.fecha_generacion);
+            document.getElementById('updateTime').textContent = 
+                `Última actualización: ${updateTime.toLocaleDateString('es-MX', { 
+                    weekday: 'long', 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                })}`;
+
+            renderPlaces();
+        }
+
+        function filterPlaces(filter) {
+            currentFilter = filter;
+            
+            // Actualizar botones
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            renderPlaces();
+        }
+
+        function renderPlaces() {
+            const grid = document.getElementById('placesGrid');
+            let filteredPlaces = placesData.ranking;
+
+            // Aplicar filtro
+            if (currentFilter !== 'all') {
+                filteredPlaces = placesData.ranking.filter(place => 
+                    place.badges && place.badges.includes(currentFilter)
+                );
+            }
+
+            // Generar HTML
+            grid.innerHTML = filteredPlaces.map((place, index) => {
+                const rank = currentFilter === 'all' ? index + 1 : 
+                    placesData.ranking.findIndex(p => p.lugar === place.lugar) + 1;
+                
+                return createPlaceCard(place, rank);
+            }).join('');
+
+            // Animar barras
+            setTimeout(() => {
+                document.querySelectorAll('.popularity-fill, .day-bar-fill').forEach(bar => {
+                    bar.style.width = bar.dataset.width;
+                });
+            }, 100);
+        }
+
+        function createPlaceCard(place, rank) {
+            const badges = place.badges ? place.badges.map(badge => 
+                `<span class="badge badge-${badge}">${getBadgeText(badge)}</span>`
+            ).join('') : '';
+
+            const popularityClass = place.datos_raw.popularidad_ahora > 70 ? 'hot' : '';
+            const popularityText = place.datos_raw.popularidad_ahora ? 
+                `${place.datos_raw.popularidad_ahora}% ahora` : 'N/A';
+            const popularityWidth = place.datos_raw.popularidad_ahora || 0;
+
+            const chartId = `chart-${rank}`;
+            const dayNames = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
+            const chartHTML = place.populartimes ? `
+                <div class="chart-container" id="${chartId}">
+                    ${place.populartimes.map((val, i) => `
+                        <div class="day-chart">
+                            <div class="day-name">${dayNames[i]}</div>
+                            <div class="day-bar">
+                                <div class="day-bar-fill" data-width="${val}%" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                <button class="toggle-chart" onclick="toggleChart('${chartId}')">
+                    📊 Ver horarios populares
+                </button>
+            ` : '';
+
+            return `
+                <div class="place-card">
+                    <div class="place-rank">#${rank}</div>
+                    <div class="place-name">${place.lugar}</div>
+                    <div class="place-address">📍 ${place.datos_raw.direccion}</div>
+                    
+                    ${badges}
+
+                    <div class="place-stats">
+                        <div class="stat">
+                            <div class="stat-label">Score Total</div>
+                            <div class="stat-value">${place.score_total}/10</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-label">Rating</div>
+                            <div class="stat-value">⭐ ${place.datos_raw.rating}</div>
+                        </div>
+                    </div>
+
+                    <div class="popularity-bar">
+                        <div class="popularity-fill ${popularityClass}" 
+                             data-width="${popularityWidth}%" 
+                             style="width: 0%">
+                            ${popularityText}
+                        </div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-label">Reviews</div>
+                        <div class="stat-value">👥 ${place.datos_raw.total_reviews.toLocaleString()}</div>
+                    </div>
+
+                    <div class="score-breakdown">
+                        <div class="score-item">
+                            <span class="score-label">🔥 Popularidad actual</span>
+                            <span class="score-value">${place.desglose.popularidad_actual}/10</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">⭐ Rating</span>
+                            <span class="score-value">${place.desglose.rating}/10</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">👥 Volumen</span>
+                            <span class="score-value">${place.desglose.volumen_reviews}/10</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">📈 Tendencia</span>
+                            <span class="score-value">${place.desglose.tendencia_semanal}/10</span>
+                        </div>
+                        <div class="score-item">
+                            <span class="score-label">📊 Consistencia</span>
+                            <span class="score-value">${place.desglose.consistencia}/10</span>
+                        </div>
+                    </div>
+
+                    ${chartHTML}
+                </div>
+            `;
+        }
+
+        function getBadgeText(badge) {
+            const texts = {
+                'trending': '🔥 Trending',
+                'toprated': '⭐ Top Rated',
+                'hidden': '💎 Hidden Gem'
+            };
+            return texts[badge] || badge;
+        }
+
+        function toggleChart(chartId) {
+            const chart = document.getElementById(chartId);
+            const button = event.target;
+            
+            if (chart.classList.contains('active')) {
+                chart.classList.remove('active');
+                button.textContent = '📊 Ver horarios populares';
+            } else {
+                chart.classList.add('active');
+                button.textContent = '📊 Ocultar horarios';
+                
+                // Animar barras del chart
+                setTimeout(() => {
+                    chart.querySelectorAll('.day-bar-fill').forEach(bar => {
+                        bar.style.width = bar.dataset.width;
+                    });
+                }, 50);
+            }
+        }
+
+        // Inicializar cuando se cargue la página
+        loadData();
+    </script>
+</body>
+</html>
