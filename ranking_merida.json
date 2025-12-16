@@ -1,77 +1,2172 @@
 {
-  "fecha_generacion": "2025-12-16T15:07:25.700977",
+  "fecha_generacion": "2025-12-16T22:34:21.020560",
   "ranking": [
     {
-      "lugar": "Micaela Mar & Leña",
-      "score_total": 5.18,
+      "lugar": "Plaza Grande",
+      "score_total": 8.65,
+      "categoria": "plazas",
       "desglose": {
-        "popularidad_actual": 0,
+        "popularidad_actual": 10.0,
+        "rating": 9.4,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 3.94,
+        "consistencia": 7.13
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.7,
+        "total_reviews": 46318,
+        "direccion": "C. 60 S/N, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        39.9,
+        34.8,
+        32.3,
+        32.8,
+        39.8,
+        47.9,
+        48.2
+      ],
+      "badges": [
+        "trending",
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "Parque Colonia México",
+      "score_total": 8.25,
+      "categoria": "parques",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 8.09,
+        "tendencia_semanal": 3.76,
+        "consistencia": 7.63
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 1728,
+        "direccion": "C. 31 18, entre 31 y 29, Col. México, México Oriente, 97125 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        38.5,
+        42.5,
+        44.4,
+        46.0,
+        44.9,
+        31.4,
+        15.5
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "La Bierhaus",
+      "score_total": 8.11,
+      "categoria": "bares",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 8.81,
+        "tendencia_semanal": 1.86,
+        "consistencia": 7.73
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 3328,
+        "direccion": "C. 62 487-por 57 y 59, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        13.2,
+        14.4,
+        14.6,
+        18.6,
+        25.9,
+        27.3,
+        16.0
+      ],
+      "badges": [
+        "trending"
+      ]
+    },
+    {
+      "lugar": "La Bierhaus",
+      "score_total": 8.11,
+      "categoria": "cerveza artesanal",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 8.81,
+        "tendencia_semanal": 1.86,
+        "consistencia": 7.73
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 3328,
+        "direccion": "C. 62 487-por 57 y 59, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        13.2,
+        14.4,
+        14.6,
+        18.6,
+        25.9,
+        27.3,
+        16.0
+      ],
+      "badges": [
+        "trending"
+      ]
+    },
+    {
+      "lugar": "Poniente Ecological Park",
+      "score_total": 8.03,
+      "categoria": "parques",
+      "desglose": {
+        "popularidad_actual": 7.8,
+        "rating": 9.2,
+        "volumen_reviews": 9.4,
+        "tendencia_semanal": 5.36,
+        "consistencia": 7.04
+      },
+      "datos_raw": {
+        "popularidad_ahora": 78,
+        "rating": 4.6,
+        "total_reviews": 5764,
+        "direccion": "Calle 116 x67 diagonal S/N, Yucalpetén, Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        53.5,
+        56.0,
+        58.9,
+        55.3,
+        58.5,
+        49.2,
+        43.9
+      ],
+      "badges": [
+        "trending"
+      ]
+    },
+    {
+      "lugar": "Mariscos Villa Rica Mérida",
+      "score_total": 7.84,
+      "categoria": "mariscos",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.0,
+        "volumen_reviews": 7.83,
+        "tendencia_semanal": 1.77,
+        "consistencia": 7.57
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.5,
+        "total_reviews": 1356,
+        "direccion": "C. 46 LB, Cordemex, 97115 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        13.2,
+        15.8,
+        13.7,
+        19.9,
+        16.0,
+        21.8,
+        23.8
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "El Marlin Azul",
+      "score_total": 7.83,
+      "categoria": "mariscos",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 7.9,
+        "tendencia_semanal": 1.53,
+        "consistencia": 7.25
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 1440,
+        "direccion": "C. 62 488B, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        15.5,
+        14.7,
+        18.4,
+        15.8,
+        20.4,
+        22.2,
+        0.0
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Museum of the City of Merida",
+      "score_total": 7.77,
+      "categoria": "museos",
+      "desglose": {
+        "popularidad_actual": 9.6,
+        "rating": 9.2,
+        "volumen_reviews": 8.14,
+        "tendencia_semanal": 2.02,
+        "consistencia": 6.62
+      },
+      "datos_raw": {
+        "popularidad_ahora": 96,
+        "rating": 4.6,
+        "total_reviews": 1805,
+        "direccion": "C. 56 529A, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        26.3,
+        29.2,
+        28.4,
+        30.3,
+        15.0,
+        12.1
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Los Mariscos de Chichí",
+      "score_total": 7.65,
+      "categoria": "mariscos",
+      "desglose": {
+        "popularidad_actual": 8.8,
+        "rating": 8.8,
+        "volumen_reviews": 8.91,
+        "tendencia_semanal": 2.0,
+        "consistencia": 7.24
+      },
+      "datos_raw": {
+        "popularidad_ahora": 88,
+        "rating": 4.4,
+        "total_reviews": 3672,
+        "direccion": "Calle 35ᴬ, C. 35 LB, Chichí Suárez, 97306 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        17.2,
+        19.0,
+        18.5,
+        19.4,
+        19.8,
+        25.0,
+        21.0
+      ],
+      "badges": [
+        "trending"
+      ]
+    },
+    {
+      "lugar": "Bar Latino",
+      "score_total": 7.65,
+      "categoria": "bares",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 6.73,
+        "tendencia_semanal": 1.34,
+        "consistencia": 7.99
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 492,
+        "direccion": "C. 59 461, Parque de la Mejorada, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        8.3,
+        9.0,
+        10.6,
+        12.2,
+        15.7,
+        26.5,
+        11.8
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "BAKERY MAYUQUITA",
+      "score_total": 7.47,
+      "categoria": "panaderías",
+      "desglose": {
+        "popularidad_actual": 10.0,
+        "rating": 9.2,
+        "volumen_reviews": 5.25,
+        "tendencia_semanal": 2.73,
+        "consistencia": 7.1
+      },
+      "datos_raw": {
+        "popularidad_ahora": 100,
+        "rating": 4.6,
+        "total_reviews": 126,
+        "direccion": "Calle 60 número 504A Por 63 y 65, C. 60 504A, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        23.7,
+        37.2,
+        36.2,
+        31.0,
+        34.5,
+        28.8,
+        0.0
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Parque de la Alemán",
+      "score_total": 7.47,
+      "categoria": "parques",
+      "desglose": {
+        "popularidad_actual": 6.4,
+        "rating": 9.4,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 2.77,
+        "consistencia": 7.85
+      },
+      "datos_raw": {
+        "popularidad_ahora": 64,
+        "rating": 4.7,
+        "total_reviews": 12057,
+        "direccion": "Calle 21 281F, Miguel Alemán, 97148 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        21.1,
+        24.2,
+        24.5,
+        25.1,
+        29.5,
+        36.2,
+        33.5
+      ],
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "Café Riqueza",
+      "score_total": 7.2,
+      "categoria": "cafeterías",
+      "desglose": {
+        "popularidad_actual": 8.2,
+        "rating": 9.4,
+        "volumen_reviews": 6.42,
+        "tendencia_semanal": 2.64,
+        "consistencia": 7.07
+      },
+      "datos_raw": {
+        "popularidad_ahora": 82,
+        "rating": 4.7,
+        "total_reviews": 369,
+        "direccion": "C. 60 440, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        32.8,
+        26.2,
+        23.8,
+        22.4,
+        20.9,
+        36.5,
+        22.0
+      ],
+      "badges": [
+        "trending",
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Pan Montejo Matriz",
+      "score_total": 7.15,
+      "categoria": "panaderías",
+      "desglose": {
+        "popularidad_actual": 6.9,
+        "rating": 9.0,
+        "volumen_reviews": 8.23,
+        "tendencia_semanal": 3.25,
+        "consistencia": 6.99
+      },
+      "datos_raw": {
+        "popularidad_ahora": 69,
+        "rating": 4.5,
+        "total_reviews": 1961,
+        "direccion": "97100, C. 58 487, Itzimná, Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        35.7,
+        38.9,
+        37.5,
+        36.2,
+        32.6,
+        28.7,
+        18.2
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Hop 3 The Beer Experience",
+      "score_total": 7.11,
+      "categoria": "cerveza artesanal",
+      "desglose": {
+        "popularidad_actual": 8.1,
+        "rating": 9.0,
+        "volumen_reviews": 6.94,
+        "tendencia_semanal": 2.15,
+        "consistencia": 7.17
+      },
+      "datos_raw": {
+        "popularidad_ahora": 81,
+        "rating": 4.5,
+        "total_reviews": 598,
+        "direccion": "C. 60 346, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        17.8,
+        18.8,
+        22.2,
+        22.1,
+        30.9,
+        24.1,
+        14.8
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "B-Fitness",
+      "score_total": 7.09,
+      "categoria": "gimnasios",
+      "desglose": {
+        "popularidad_actual": 7.5,
+        "rating": 9.2,
+        "volumen_reviews": 6.6,
+        "tendencia_semanal": 3.39,
+        "consistencia": 7.13
+      },
+      "datos_raw": {
+        "popularidad_ahora": 75,
+        "rating": 4.6,
+        "total_reviews": 436,
+        "direccion": "Int D, por 30 y 32, C. 9 217, García Ginerés, 97218 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        43.9,
+        44.9,
+        44.0,
+        43.9,
+        36.5,
+        16.0,
+        8.0
+      ],
+      "badges": [
+        "trending",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Micaela Mar & Leña",
+      "score_total": 7.07,
+      "categoria": "restaurantes populares",
+      "desglose": {
+        "popularidad_actual": 6.3,
         "rating": 9.4,
         "volumen_reviews": 8.88,
         "tendencia_semanal": 2.06,
         "consistencia": 7.44
       },
       "datos_raw": {
-        "popularidad_ahora": null,
+        "popularidad_ahora": 63,
         "rating": 4.7,
-        "total_reviews": 3570,
+        "total_reviews": 3571,
         "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
-      }
+      },
+      "populartimes": [
+        16.9,
+        17.8,
+        16.1,
+        21.2,
+        25.3,
+        29.2,
+        17.5
+      ],
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "Antica Roma",
+      "score_total": 6.87,
+      "categoria": "comida italiana",
+      "desglose": {
+        "popularidad_actual": 6.0,
+        "rating": 9.4,
+        "volumen_reviews": 8.28,
+        "tendencia_semanal": 2.23,
+        "consistencia": 7.29
+      },
+      "datos_raw": {
+        "popularidad_ahora": 60,
+        "rating": 4.7,
+        "total_reviews": 2055,
+        "direccion": "Calle 23 A No. 350 X 34 y 36 La Florida, Los Pinos, 97138 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        20.8,
+        19.6,
+        19.0,
+        20.2,
+        26.6,
+        26.5,
+        23.6
+      ],
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "DeloreanBar",
+      "score_total": 6.81,
+      "categoria": "bares",
+      "desglose": {
+        "popularidad_actual": 6.6,
+        "rating": 8.8,
+        "volumen_reviews": 7.81,
+        "tendencia_semanal": 2.01,
+        "consistencia": 7.69
+      },
+      "datos_raw": {
+        "popularidad_ahora": 66,
+        "rating": 4.4,
+        "total_reviews": 1332,
+        "direccion": "Calle 58, entre 59 Callejón Excongreso, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        18.3,
+        18.4,
+        17.4,
+        17.9,
+        23.0,
+        24.9,
+        20.9
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Villa Italia",
+      "score_total": 6.74,
+      "categoria": "comida italiana",
+      "desglose": {
+        "popularidad_actual": 6.3,
+        "rating": 9.2,
+        "volumen_reviews": 7.85,
+        "tendencia_semanal": 1.39,
+        "consistencia": 7.73
+      },
+      "datos_raw": {
+        "popularidad_ahora": 63,
+        "rating": 4.6,
+        "total_reviews": 1381,
+        "direccion": "Av 21 Jose Diaz Bolio 69 X 10 y 12, México, 97125 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        10.6,
+        12.4,
+        14.6,
+        23.5,
+        22.5,
+        13.8
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Museo Regional de Antropología, Palacio Cantón",
+      "score_total": 6.72,
+      "categoria": "museos",
+      "desglose": {
+        "popularidad_actual": 5.4,
+        "rating": 9.2,
+        "volumen_reviews": 9.06,
+        "tendencia_semanal": 1.91,
+        "consistencia": 7.05
+      },
+      "datos_raw": {
+        "popularidad_ahora": 54,
+        "rating": 4.6,
+        "total_reviews": 4214,
+        "direccion": "C. 43 485, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        22.7,
+        18.8,
+        20.9,
+        19.4,
+        21.7,
+        30.1
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Parque de Santa Lucía",
+      "score_total": 6.72,
+      "categoria": "parques",
+      "desglose": {
+        "popularidad_actual": 4.3,
+        "rating": 9.4,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 1.61,
+        "consistencia": 8.42
+      },
+      "datos_raw": {
+        "popularidad_ahora": 43,
+        "rating": 4.7,
+        "total_reviews": 13999,
+        "direccion": "C. 60 476A, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        10.3,
+        11.4,
+        12.7,
+        24.7,
+        18.5,
+        21.4,
+        13.8
+      ],
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "Alpha Fitness Mérida",
+      "score_total": 6.72,
+      "categoria": "gimnasios",
+      "desglose": {
+        "popularidad_actual": 7.1,
+        "rating": 9.8,
+        "volumen_reviews": 4.96,
+        "tendencia_semanal": 2.83,
+        "consistencia": 7.24
+      },
+      "datos_raw": {
+        "popularidad_ahora": 71,
+        "rating": 4.9,
+        "total_reviews": 96,
+        "direccion": "81A 547, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        39.7,
+        39.1,
+        42.0,
+        39.6,
+        29.7,
+        8.2,
+        0.0
+      ],
+      "badges": [
+        "trending",
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "La Pigua",
+      "score_total": 6.7,
+      "categoria": "mariscos",
+      "desglose": {
+        "popularidad_actual": 5.6,
+        "rating": 9.2,
+        "volumen_reviews": 8.68,
+        "tendencia_semanal": 1.89,
+        "consistencia": 7.04
+      },
+      "datos_raw": {
+        "popularidad_ahora": 56,
+        "rating": 4.6,
+        "total_reviews": 2953,
+        "direccion": "Av Cupules 505 A, Yucatán, 97050 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        11.8,
+        11.9,
+        20.2,
+        25.7,
+        23.6,
+        22.1,
+        17.0
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Parque de las Américas",
+      "score_total": 6.68,
+      "categoria": "parques",
+      "desglose": {
+        "popularidad_actual": 4.1,
+        "rating": 9.4,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 1.88,
+        "consistencia": 8.15
+      },
+      "datos_raw": {
+        "popularidad_ahora": 41,
+        "rating": 4.7,
+        "total_reviews": 18925,
+        "direccion": "Av. Colón 19-Por calle 20 y 23, García Ginerés, 97070 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        15.2,
+        15.2,
+        15.1,
+        16.7,
+        19.6,
+        24.5,
+        25.4
+      ],
+      "badges": [
+        "toprated"
+      ]
     },
     {
       "lugar": "Ariadna Mérida",
-      "score_total": 5.08,
+      "score_total": 6.64,
+      "categoria": "restaurantes populares",
       "desglose": {
-        "popularidad_actual": 0,
+        "popularidad_actual": 5.3,
         "rating": 9.6,
         "volumen_reviews": 7.87,
-        "tendencia_semanal": 2.71,
-        "consistencia": 6.96
+        "tendencia_semanal": 2.51,
+        "consistencia": 6.95
       },
       "datos_raw": {
-        "popularidad_ahora": null,
+        "popularidad_ahora": 53,
         "rating": 4.8,
         "total_reviews": 1408,
         "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
-      }
+      },
+      "populartimes": [
+        24.3,
+        7.8,
+        28.2,
+        27.5,
+        29.9,
+        36.1,
+        21.6
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Teya Santa Lucía - Restaurante Yucateco",
+      "score_total": 6.58,
+      "categoria": "tacos yucatecos",
+      "desglose": {
+        "popularidad_actual": 5.3,
+        "rating": 8.8,
+        "volumen_reviews": 7.7,
+        "tendencia_semanal": 3.67,
+        "consistencia": 6.99
+      },
+      "datos_raw": {
+        "popularidad_ahora": 53,
+        "rating": 4.4,
+        "total_reviews": 1201,
+        "direccion": "C. 60 468, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        32.6,
+        33.8,
+        32.0,
+        36.2,
+        39.3,
+        46.5,
+        36.1
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "La cochinita de la 60",
+      "score_total": 6.49,
+      "categoria": "tacos yucatecos",
+      "desglose": {
+        "popularidad_actual": 4.9,
+        "rating": 9.4,
+        "volumen_reviews": 8.28,
+        "tendencia_semanal": 1.92,
+        "consistencia": 7.24
+      },
+      "datos_raw": {
+        "popularidad_ahora": 49,
+        "rating": 4.7,
+        "total_reviews": 2043,
+        "direccion": "C. 60 326, Alcalá Martín, 97050 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        19.1,
+        20.1,
+        14.2,
+        18.2,
+        18.9,
+        20.6,
+        23.4
+      ],
+      "badges": [
+        "toprated"
+      ]
     },
     {
       "lugar": "Yerba Santa Mérida",
-      "score_total": 4.93,
+      "score_total": 6.46,
+      "categoria": "restaurantes populares",
       "desglose": {
-        "popularidad_actual": 0,
+        "popularidad_actual": 5.1,
         "rating": 9.2,
         "volumen_reviews": 7.99,
         "tendencia_semanal": 2.21,
         "consistencia": 7.04
       },
       "datos_raw": {
-        "popularidad_ahora": null,
+        "popularidad_ahora": 51,
         "rating": 4.6,
-        "total_reviews": 1572,
+        "total_reviews": 1574,
         "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
-      }
+      },
+      "populartimes": [
+        18.9,
+        18.4,
+        17.8,
+        25.3,
+        27.5,
+        29.1,
+        17.3
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Trattoria La Pasta Montejo",
+      "score_total": 6.33,
+      "categoria": "comida italiana",
+      "desglose": {
+        "popularidad_actual": 3.0,
+        "rating": 9.6,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 1.77,
+        "consistencia": 7.62
+      },
+      "datos_raw": {
+        "popularidad_ahora": 30,
+        "rating": 4.8,
+        "total_reviews": 25133,
+        "direccion": "P.º de Montejo 481, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        14.4,
+        13.6,
+        15.8,
+        15.4,
+        21.2,
+        26.3,
+        17.0
+      ],
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "PRIME FITNESS",
+      "score_total": 6.23,
+      "categoria": "gimnasios",
+      "desglose": {
+        "popularidad_actual": 4.9,
+        "rating": 9.4,
+        "volumen_reviews": 5.78,
+        "tendencia_semanal": 3.77,
+        "consistencia": 6.92
+      },
+      "datos_raw": {
+        "popularidad_ahora": 49,
+        "rating": 4.7,
+        "total_reviews": 206,
+        "direccion": "Plaza Santa Monica, Fraccionamiento Las Américas, Sin Nombre de Col 27, 97302 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        46.8,
+        50.3,
+        49.5,
+        49.0,
+        42.9,
+        18.4,
+        7.2
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "La Negrita Cantina",
+      "score_total": 6.16,
+      "categoria": "bares",
+      "desglose": {
+        "popularidad_actual": 3.2,
+        "rating": 8.8,
+        "volumen_reviews": 9.86,
+        "tendencia_semanal": 1.95,
+        "consistencia": 7.36
+      },
+      "datos_raw": {
+        "popularidad_ahora": 32,
+        "rating": 4.4,
+        "total_reviews": 8797,
+        "direccion": "Calle 62 esquina, C. 49 415, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        16.2,
+        15.4,
+        15.8,
+        21.1,
+        21.9,
+        27.0,
+        19.0
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Sādhak Yoga Mérida",
+      "score_total": 6.08,
+      "categoria": "yoga",
+      "desglose": {
+        "popularidad_actual": 5.9,
+        "rating": 9.8,
+        "volumen_reviews": 4.27,
+        "tendencia_semanal": 1.76,
+        "consistencia": 7.41
+      },
+      "datos_raw": {
+        "popularidad_ahora": 59,
+        "rating": 4.9,
+        "total_reviews": 51,
+        "direccion": "Cto. Colonias 187, Col. México, México Oriente, 97137 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        28.5,
+        23.5,
+        25.7,
+        20.4,
+        24.8,
+        0.0,
+        0.0
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Kadus Bistro",
+      "score_total": 6.03,
+      "categoria": "cafeterías",
+      "desglose": {
+        "popularidad_actual": 3.1,
+        "rating": 9.2,
+        "volumen_reviews": 8.22,
+        "tendencia_semanal": 2.77,
+        "consistencia": 7.36
+      },
+      "datos_raw": {
+        "popularidad_ahora": 31,
+        "rating": 4.6,
+        "total_reviews": 1944,
+        "direccion": "C. 60 326 Col, Alcalá Martín, 97050 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        28.7,
+        22.0,
+        25.2,
+        26.0,
+        32.2,
+        32.0,
+        28.1
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "BFitness gym Sur",
+      "score_total": 5.95,
+      "categoria": "gimnasios",
+      "desglose": {
+        "popularidad_actual": 3.9,
+        "rating": 9.4,
+        "volumen_reviews": 6.07,
+        "tendencia_semanal": 3.32,
+        "consistencia": 7.22
+      },
+      "datos_raw": {
+        "popularidad_ahora": 39,
+        "rating": 4.7,
+        "total_reviews": 268,
+        "direccion": "C. 60 786, Mercedes Barrera, 97277 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        44.6,
+        44.3,
+        44.8,
+        41.6,
+        35.9,
+        14.0,
+        6.8
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Cafeteria Merida Impala ☕️ | The FIRST Coffee Shop since 1958 on Paseo de Montejo, Centro",
+      "score_total": 5.94,
+      "categoria": "cafeterías",
+      "desglose": {
+        "popularidad_actual": 2.9,
+        "rating": 8.6,
+        "volumen_reviews": 9.34,
+        "tendencia_semanal": 1.44,
+        "consistencia": 8.32
+      },
+      "datos_raw": {
+        "popularidad_ahora": 29,
+        "rating": 4.3,
+        "total_reviews": 5459,
+        "direccion": "Calle 56 A 500-x 47 y 45, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        11.0,
+        10.9,
+        10.9,
+        10.3,
+        12.9,
+        27.2,
+        17.7
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Up Fitness Gym",
+      "score_total": 5.53,
+      "categoria": "gimnasios",
+      "desglose": {
+        "popularidad_actual": 2.7,
+        "rating": 9.0,
+        "volumen_reviews": 6.29,
+        "tendencia_semanal": 3.25,
+        "consistencia": 7.21
+      },
+      "datos_raw": {
+        "popularidad_ahora": 27,
+        "rating": 4.5,
+        "total_reviews": 327,
+        "direccion": "Calle 23ᴬ. 331 esq, Calle 24, San Pedro Cholul, 97138 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        44.6,
+        47.3,
+        41.4,
+        40.9,
+        36.7,
+        16.6,
+        0.0
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Cinemex",
+      "score_total": 5.49,
+      "categoria": "cines",
+      "desglose": {
+        "popularidad_actual": 1.8,
+        "rating": 8.8,
+        "volumen_reviews": 8.68,
+        "tendencia_semanal": 1.65,
+        "consistencia": 7.65
+      },
+      "datos_raw": {
+        "popularidad_ahora": 18,
+        "rating": 4.4,
+        "total_reviews": 2970,
+        "direccion": "Galerías Mérida Calle 60.299, Carr. Mérida - Progreso Km. 8.5, Colonia Revolución, 97143 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        9.2,
+        10.2,
+        8.8,
+        14.3,
+        15.5,
+        28.3,
+        28.9
+      ],
+      "badges": []
     },
     {
       "lugar": "Restaurante Emplumado",
-      "score_total": 4.84,
+      "score_total": 5.29,
+      "categoria": "restaurantes populares",
       "desglose": {
-        "popularidad_actual": 0,
+        "popularidad_actual": 1.5,
         "rating": 9.2,
         "volumen_reviews": 7.42,
         "tendencia_semanal": 2.17,
         "consistencia": 7.27
       },
       "datos_raw": {
-        "popularidad_ahora": null,
+        "popularidad_ahora": 15,
         "rating": 4.6,
         "total_reviews": 933,
         "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
-      }
+      },
+      "populartimes": [
+        16.6,
+        19.1,
+        18.4,
+        25.9,
+        28.1,
+        28.1,
+        16.1
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Mayan World Museum of Mérida",
+      "score_total": 5.22,
+      "categoria": "museos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 2.08,
+        "consistencia": 6.61
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 12950,
+        "direccion": "C. 60 299 E, Zona Industrial, Unidad Revolución, 97110 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        21.4,
+        0.0,
+        25.0,
+        24.6,
+        27.4,
+        22.2,
+        25.1
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Boho Spa Center Norte",
+      "score_total": 5.2,
+      "categoria": "spas",
+      "desglose": {
+        "popularidad_actual": 1.9,
+        "rating": 9.4,
+        "volumen_reviews": 6.41,
+        "tendencia_semanal": 2.3,
+        "consistencia": 6.55
+      },
+      "datos_raw": {
+        "popularidad_ahora": 19,
+        "rating": 4.7,
+        "total_reviews": 367,
+        "direccion": "Calle 24 271 x 79 y 33, Montes de Amé, 97115 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        25.4,
+        18.7,
+        27.9,
+        29.9,
+        30.2,
+        28.9,
+        0.0
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Catalina Bakery",
+      "score_total": 5.14,
+      "categoria": "panaderías",
+      "desglose": {
+        "popularidad_actual": 1.8,
+        "rating": 9.0,
+        "volumen_reviews": 6.54,
+        "tendencia_semanal": 2.07,
+        "consistencia": 7.33
+      },
+      "datos_raw": {
+        "popularidad_ahora": 18,
+        "rating": 4.5,
+        "total_reviews": 414,
+        "direccion": "C. 22 199g, entre 19 y Av. Colón, García Ginerés, 97070 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        24.5,
+        25.3,
+        22.9,
+        26.5,
+        26.1,
+        19.5
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Cuerno de Toro Taproom",
+      "score_total": 4.99,
+      "categoria": "cerveza artesanal",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.8,
+        "volumen_reviews": 7.9,
+        "tendencia_semanal": 1.24,
+        "consistencia": 7.69
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.9,
+        "total_reviews": 1441,
+        "direccion": "C. 64 461, Parque Santa Lucia, Centro, 97000 Centro, Yuc., Mexico"
+      },
+      "populartimes": [
+        6.8,
+        6.8,
+        9.8,
+        15.2,
+        17.7,
+        19.0,
+        11.7
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Taqueria La Lupita",
+      "score_total": 4.97,
+      "categoria": "tacos yucatecos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 8.86,
+        "tendencia_semanal": 1.19,
+        "consistencia": 7.71
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 3501,
+        "direccion": "Mercado de Santiago, C. 57 Supermanzana Interior, Parque Santiago, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        12.3,
+        11.0,
+        0.0,
+        11.0,
+        12.6,
+        16.3,
+        20.0
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Elena Vales Bakery",
+      "score_total": 4.9,
+      "categoria": "panaderías",
+      "desglose": {
+        "popularidad_actual": 1.7,
+        "rating": 8.6,
+        "volumen_reviews": 5.73,
+        "tendencia_semanal": 2.9,
+        "consistencia": 6.64
+      },
+      "datos_raw": {
+        "popularidad_ahora": 17,
+        "rating": 4.3,
+        "total_reviews": 195,
+        "direccion": "Calle 64 número 466 por 55 y 53, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        31.4,
+        36.3,
+        38.9,
+        36.2,
+        38.4,
+        12.8,
+        8.7
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "The Tai Spa",
+      "score_total": 4.87,
+      "categoria": "spas",
+      "desglose": {
+        "popularidad_actual": 0.9,
+        "rating": 9.4,
+        "volumen_reviews": 6.33,
+        "tendencia_semanal": 2.06,
+        "consistencia": 6.77
+      },
+      "datos_raw": {
+        "popularidad_ahora": 9,
+        "rating": 4.7,
+        "total_reviews": 341,
+        "direccion": "Av. \"Shutan\" Medina C. 138, Residencial Montecristo, 97133 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        29.5,
+        25.7,
+        27.0,
+        31.2,
+        30.5,
+        0.0
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Cafetería Arista Barista Centro | Coffee Shop Artesanal con café de especialidad",
+      "score_total": 4.76,
+      "categoria": "cafeterías",
+      "desglose": {
+        "popularidad_actual": 0.0,
+        "rating": 9.4,
+        "volumen_reviews": 6.72,
+        "tendencia_semanal": 2.36,
+        "consistencia": 7.08
+      },
+      "datos_raw": {
+        "popularidad_ahora": 0,
+        "rating": 4.7,
+        "total_reviews": 486,
+        "direccion": "Calle 54 & Calle 49, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        21.9,
+        26.5,
+        20.8,
+        26.4,
+        36.0,
+        34.0
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Trattoria Di Alfredo",
+      "score_total": 4.7,
+      "categoria": "comida italiana",
+      "desglose": {
+        "popularidad_actual": 0.1,
+        "rating": 9.6,
+        "volumen_reviews": 6.51,
+        "tendencia_semanal": 1.8,
+        "consistencia": 6.97
+      },
+      "datos_raw": {
+        "popularidad_ahora": 1,
+        "rating": 4.8,
+        "total_reviews": 401,
+        "direccion": "Calle 67 532-y 64, entre Calle 62, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        24.1,
+        18.4,
+        0.0,
+        24.0,
+        23.0,
+        21.5,
+        14.8
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Taproom Mastache",
+      "score_total": 4.7,
+      "categoria": "cerveza artesanal",
+      "desglose": {
+        "popularidad_actual": 0.2,
+        "rating": 8.8,
+        "volumen_reviews": 7.17,
+        "tendencia_semanal": 1.57,
+        "consistencia": 7.71
+      },
+      "datos_raw": {
+        "popularidad_ahora": 2,
+        "rating": 4.4,
+        "total_reviews": 737,
+        "direccion": "Av. Cámara de Comercio 263, San Ramón Nte, 97117 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        10.6,
+        10.2,
+        11.5,
+        16.0,
+        24.2,
+        23.4,
+        14.2
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Raudal Heladería Artesanal",
+      "score_total": 4.44,
+      "categoria": "heladerías",
+      "desglose": {
+        "popularidad_actual": 0.2,
+        "rating": 8.8,
+        "volumen_reviews": 6.23,
+        "tendencia_semanal": 1.33,
+        "consistencia": 7.34
+      },
+      "datos_raw": {
+        "popularidad_ahora": 2,
+        "rating": 4.4,
+        "total_reviews": 311,
+        "direccion": "C. 50 657, entre 95 y 97, Centro, 97270 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        12.6,
+        13.0,
+        0.0,
+        12.5,
+        14.5,
+        20.1,
+        20.2
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "XOXO Club",
+      "score_total": 4.25,
+      "categoria": "antros",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 8.8,
+        "volumen_reviews": 5.82,
+        "tendencia_semanal": 0.6,
+        "consistencia": 7.99
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.4,
+        "total_reviews": 213,
+        "direccion": "C. 56 474-por 55, Parque Santa Lucia, Centro Oriente, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        13.0,
+        20.2,
+        8.7
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Cinépolis Las Américas Mérida",
+      "score_total": 4.25,
+      "categoria": "cines",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 10,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 10136,
+        "direccion": "C. 21 331, Miguel Hidalgo, 97220 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "Bendita Paleta Mérida",
+      "score_total": 4.19,
+      "categoria": "heladerías",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 4.45,
+        "tendencia_semanal": 2.25,
+        "consistencia": 7.12
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 60,
+        "direccion": "Calle 47 464 C, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        24.4,
+        26.8,
+        21.8,
+        18.5,
+        14.9,
+        25.0,
+        26.0
+      ],
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Cinépolis Sendero Mérida",
+      "score_total": 4.19,
+      "categoria": "cines",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 9.72,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 7715,
+        "direccion": "C. 14 70, Chuminópolis, 97158 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "Cinépolis The Harbor",
+      "score_total": 4.17,
+      "categoria": "cines",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 9.34,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 5449,
+        "direccion": "Zona Industrial, Industrial, 97204 Merida, Yucatan, Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "Chandrika Yoga Para Ti",
+      "score_total": 4.17,
+      "categoria": "yoga",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 10.0,
+        "volumen_reviews": 3.4,
+        "tendencia_semanal": 1.56,
+        "consistencia": 7.52
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 5,
+        "total_reviews": 23,
+        "direccion": "C. 23 419, Fracc. Altabrisa, 97130 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        28.0,
+        25.0,
+        24.6,
+        28.8,
+        2.8,
+        0.0,
+        0.0
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Palacio de la Música",
+      "score_total": 4.16,
+      "categoria": "museos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 8.8,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 3303,
+        "direccion": "C. 58, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated"
+      ]
+    },
+    {
+      "lugar": "Cinépolis Mérida Altabrisa",
+      "score_total": 4.16,
+      "categoria": "cines",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 9.57,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 6724,
+        "direccion": "C. 7 45, Col. Altabrisa, 97134 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "Foxxys Mérida",
+      "score_total": 4.11,
+      "categoria": "antros",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 8.2,
+        "volumen_reviews": 5.73,
+        "tendencia_semanal": 0.78,
+        "consistencia": 7.97
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.1,
+        "total_reviews": 195,
+        "direccion": "Calle 22 306 x 41 y 43, Col. Amalia Solorzano, 97470 Kanasín, Yuc., Mexico"
+      },
+      "populartimes": [
+        2.7,
+        0.0,
+        0.0,
+        6.5,
+        14.3,
+        18.7,
+        12.5
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "El Encanto Heladería",
+      "score_total": 4.07,
+      "categoria": "heladerías",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 3.31,
+        "tendencia_semanal": 2.3,
+        "consistencia": 6.69
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 21,
+        "direccion": "C. 20 463, Las Palmas, 97145 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        0.0,
+        25.9,
+        19.1,
+        33.2,
+        33.0,
+        27.0,
+        22.6
+      ],
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "El Harem",
+      "score_total": 3.97,
+      "categoria": "antros",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 7.8,
+        "volumen_reviews": 5.15,
+        "tendencia_semanal": 1.77,
+        "consistencia": 7.25
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 3.9,
+        "total_reviews": 115,
+        "direccion": "C. 56 364, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        10.5,
+        12.9,
+        15.9,
+        19.4,
+        19.5,
+        24.2,
+        21.6
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "Dembow Mérida",
+      "score_total": 3.97,
+      "categoria": "antros",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 7.6,
+        "volumen_reviews": 5.76,
+        "tendencia_semanal": 0.51,
+        "consistencia": 8.43
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 3.8,
+        "total_reviews": 202,
+        "direccion": "C. 58 468, Parque Santa Lucia, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": [
+        2.3,
+        0.0,
+        0.0,
+        2.0,
+        6.6,
+        13.7,
+        11.0
+      ],
+      "badges": []
+    },
+    {
+      "lugar": "MAŌ SPA",
+      "score_total": 3.79,
+      "categoria": "spas",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.8,
+        "volumen_reviews": 6.69,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.9,
+        "total_reviews": 475,
+        "direccion": "C. 60 346, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Museo de la Canción Yucateca Asociación Civil",
+      "score_total": 3.7,
+      "categoria": "museos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 6.99,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 627,
+        "direccion": "Calle 57. 464 por calle 48 Barrio de, Parque de la Mejorada, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Caffè del Centro",
+      "score_total": 3.63,
+      "categoria": "heladerías",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 6.17,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 295,
+        "direccion": "C. 59 524, Parque Santiago, Centro, 97000 Centro, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Boho Spa Centro",
+      "score_total": 3.63,
+      "categoria": "spas",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 6.15,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 288,
+        "direccion": "C. 57 514, Parque Santa Lucia, Centro, 97000 Ejido del Centro, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Boho Spa Calle 60",
+      "score_total": 3.56,
+      "categoria": "spas",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 5.78,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 206,
+        "direccion": "C. 60 367, entre 39 y 41, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Filux lab",
+      "score_total": 3.42,
+      "categoria": "galerías de arte",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 8.8,
+        "volumen_reviews": 6.08,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.4,
+        "total_reviews": 271,
+        "direccion": "Calle 64 383A por 45 y 47, C. 64 383, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "Centro Cultural La Cúpula",
+      "score_total": 3.37,
+      "categoria": "galerías de arte",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 5.6,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 174,
+        "direccion": "Calle 54 407B x 41 y 43, Calle 54 407, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Classico Península",
+      "score_total": 3.25,
+      "categoria": "antros",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 8.0,
+        "volumen_reviews": 6.24,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4,
+        "total_reviews": 314,
+        "direccion": "C. 11 640-F 3, Santa Gertrudis Copo, 97300 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": []
+    },
+    {
+      "lugar": "YOGA STUDIO MERIDA",
+      "score_total": 3.2,
+      "categoria": "yoga",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 10.0,
+        "volumen_reviews": 3.49,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 5,
+        "total_reviews": 25,
+        "direccion": "C. 21 314, Montecarlo, Sin Nombre de Col 26, 97130 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Samadhi Wellness & Yoga Studio",
+      "score_total": 3.17,
+      "categoria": "yoga",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.8,
+        "volumen_reviews": 3.58,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.9,
+        "total_reviews": 27,
+        "direccion": "Dentro de tumàka’t danza, C. 51 475A, entre C. 54 y C. 52, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Bikram Yoga MERIDA",
+      "score_total": 2.96,
+      "categoria": "yoga",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 3.31,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 21,
+        "direccion": "C. 34 256, entre 49 y 51, San Ramón Nte, 97117 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Tacos de guisados Yucatecos",
+      "score_total": 2.89,
+      "categoria": "tacos yucatecos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 10.0,
+        "volumen_reviews": 1.95,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 5,
+        "total_reviews": 6,
+        "direccion": "Street 26 199, Col. Altabrisa, 97133 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "galeria tataya",
+      "score_total": 2.5,
+      "categoria": "galerías de arte",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 10.0,
+        "volumen_reviews": 0.0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 5,
+        "total_reviews": 1,
+        "direccion": "Calle 60 x 45 y 47 409, Parque Santa Ana, Centro, 97000 Mérida, Yuc., Mexico"
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Apóstol Tap Room",
+      "score_total": 2.45,
+      "categoria": "cerveza artesanal",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.8,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.9,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Eureka",
+      "score_total": 2.35,
+      "categoria": "comida italiana",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.4,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.7,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "toprated",
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Bakery, baked goods Family",
+      "score_total": 2.3,
+      "categoria": "panaderías",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
     },
     {
       "lugar": "La Chaya Maya",
       "score_total": 2.25,
+      "categoria": "restaurantes populares",
       "desglose": {
         "popularidad_actual": 0,
         "rating": 9.0,
@@ -84,169 +2179,99 @@
         "rating": 4.5,
         "total_reviews": 0,
         "direccion": null
-      }
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "La Chaya Maya",
+      "score_total": 2.25,
+      "categoria": "tacos yucatecos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Los Mariscos de Chichí",
+      "score_total": 2.25,
+      "categoria": "mariscos",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Bar La Ruina",
+      "score_total": 2.25,
+      "categoria": "bares",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
+    },
+    {
+      "lugar": "Café Montejo",
+      "score_total": 2.25,
+      "categoria": "cafeterías",
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 0,
+        "direccion": null
+      },
+      "populartimes": null,
+      "badges": [
+        "hidden"
+      ]
     }
-  ],
-  "categorias": {
-    "trending": [],
-    "top_rated": [
-      {
-        "lugar": "Micaela Mar & Leña",
-        "score_total": 5.18,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.4,
-          "volumen_reviews": 8.88,
-          "tendencia_semanal": 2.06,
-          "consistencia": 7.44
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.7,
-          "total_reviews": 3570,
-          "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "Ariadna Mérida",
-        "score_total": 5.08,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.6,
-          "volumen_reviews": 7.87,
-          "tendencia_semanal": 2.71,
-          "consistencia": 6.96
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.8,
-          "total_reviews": 1408,
-          "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
-        }
-      }
-    ],
-    "hidden_gems": [
-      {
-        "lugar": "Ariadna Mérida",
-        "score_total": 5.08,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.6,
-          "volumen_reviews": 7.87,
-          "tendencia_semanal": 2.71,
-          "consistencia": 6.96
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.8,
-          "total_reviews": 1408,
-          "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "Yerba Santa Mérida",
-        "score_total": 4.93,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.2,
-          "volumen_reviews": 7.99,
-          "tendencia_semanal": 2.21,
-          "consistencia": 7.04
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.6,
-          "total_reviews": 1572,
-          "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "Restaurante Emplumado",
-        "score_total": 4.84,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.2,
-          "volumen_reviews": 7.42,
-          "tendencia_semanal": 2.17,
-          "consistencia": 7.27
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.6,
-          "total_reviews": 933,
-          "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "La Chaya Maya",
-        "score_total": 2.25,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.0,
-          "volumen_reviews": 0,
-          "tendencia_semanal": 0,
-          "consistencia": 0
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.5,
-          "total_reviews": 0,
-          "direccion": null
-        }
-      }
-    ],
-    "consistent": [
-      {
-        "lugar": "Micaela Mar & Leña",
-        "score_total": 5.18,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.4,
-          "volumen_reviews": 8.88,
-          "tendencia_semanal": 2.06,
-          "consistencia": 7.44
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.7,
-          "total_reviews": 3570,
-          "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "Yerba Santa Mérida",
-        "score_total": 4.93,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.2,
-          "volumen_reviews": 7.99,
-          "tendencia_semanal": 2.21,
-          "consistencia": 7.04
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.6,
-          "total_reviews": 1572,
-          "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
-        }
-      },
-      {
-        "lugar": "Restaurante Emplumado",
-        "score_total": 4.84,
-        "desglose": {
-          "popularidad_actual": 0,
-          "rating": 9.2,
-          "volumen_reviews": 7.42,
-          "tendencia_semanal": 2.17,
-          "consistencia": 7.27
-        },
-        "datos_raw": {
-          "popularidad_ahora": null,
-          "rating": 4.6,
-          "total_reviews": 933,
-          "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
-        }
-      }
-    ]
-  }
+  ]
 }
