@@ -1,0 +1,252 @@
+{
+  "fecha_generacion": "2025-12-16T15:07:25.700977",
+  "ranking": [
+    {
+      "lugar": "Micaela Mar & Leña",
+      "score_total": 5.18,
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.4,
+        "volumen_reviews": 8.88,
+        "tendencia_semanal": 2.06,
+        "consistencia": 7.44
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.7,
+        "total_reviews": 3570,
+        "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
+      }
+    },
+    {
+      "lugar": "Ariadna Mérida",
+      "score_total": 5.08,
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.6,
+        "volumen_reviews": 7.87,
+        "tendencia_semanal": 2.71,
+        "consistencia": 6.96
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.8,
+        "total_reviews": 1408,
+        "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
+      }
+    },
+    {
+      "lugar": "Yerba Santa Mérida",
+      "score_total": 4.93,
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 7.99,
+        "tendencia_semanal": 2.21,
+        "consistencia": 7.04
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 1572,
+        "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
+      }
+    },
+    {
+      "lugar": "Restaurante Emplumado",
+      "score_total": 4.84,
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.2,
+        "volumen_reviews": 7.42,
+        "tendencia_semanal": 2.17,
+        "consistencia": 7.27
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.6,
+        "total_reviews": 933,
+        "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+      }
+    },
+    {
+      "lugar": "La Chaya Maya",
+      "score_total": 2.25,
+      "desglose": {
+        "popularidad_actual": 0,
+        "rating": 9.0,
+        "volumen_reviews": 0,
+        "tendencia_semanal": 0,
+        "consistencia": 0
+      },
+      "datos_raw": {
+        "popularidad_ahora": null,
+        "rating": 4.5,
+        "total_reviews": 0,
+        "direccion": null
+      }
+    }
+  ],
+  "categorias": {
+    "trending": [],
+    "top_rated": [
+      {
+        "lugar": "Micaela Mar & Leña",
+        "score_total": 5.18,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.4,
+          "volumen_reviews": 8.88,
+          "tendencia_semanal": 2.06,
+          "consistencia": 7.44
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.7,
+          "total_reviews": 3570,
+          "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "Ariadna Mérida",
+        "score_total": 5.08,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.6,
+          "volumen_reviews": 7.87,
+          "tendencia_semanal": 2.71,
+          "consistencia": 6.96
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.8,
+          "total_reviews": 1408,
+          "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
+        }
+      }
+    ],
+    "hidden_gems": [
+      {
+        "lugar": "Ariadna Mérida",
+        "score_total": 5.08,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.6,
+          "volumen_reviews": 7.87,
+          "tendencia_semanal": 2.71,
+          "consistencia": 6.96
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.8,
+          "total_reviews": 1408,
+          "direccion": "Calle 52 450 C-x 47 y 45, Centro, 97100 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "Yerba Santa Mérida",
+        "score_total": 4.93,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.2,
+          "volumen_reviews": 7.99,
+          "tendencia_semanal": 2.21,
+          "consistencia": 7.04
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.6,
+          "total_reviews": 1572,
+          "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "Restaurante Emplumado",
+        "score_total": 4.84,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.2,
+          "volumen_reviews": 7.42,
+          "tendencia_semanal": 2.17,
+          "consistencia": 7.27
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.6,
+          "total_reviews": 933,
+          "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "La Chaya Maya",
+        "score_total": 2.25,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.0,
+          "volumen_reviews": 0,
+          "tendencia_semanal": 0,
+          "consistencia": 0
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.5,
+          "total_reviews": 0,
+          "direccion": null
+        }
+      }
+    ],
+    "consistent": [
+      {
+        "lugar": "Micaela Mar & Leña",
+        "score_total": 5.18,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.4,
+          "volumen_reviews": 8.88,
+          "tendencia_semanal": 2.06,
+          "consistencia": 7.44
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.7,
+          "total_reviews": 3570,
+          "direccion": "Calle 47 458, Centro, 97000 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "Yerba Santa Mérida",
+        "score_total": 4.93,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.2,
+          "volumen_reviews": 7.99,
+          "tendencia_semanal": 2.21,
+          "consistencia": 7.04
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.6,
+          "total_reviews": 1572,
+          "direccion": "P.º de Montejo 473, Zona Paseo Montejo, Zona, 97000 Mérida, Yuc., Mexico"
+        }
+      },
+      {
+        "lugar": "Restaurante Emplumado",
+        "score_total": 4.84,
+        "desglose": {
+          "popularidad_actual": 0,
+          "rating": 9.2,
+          "volumen_reviews": 7.42,
+          "tendencia_semanal": 2.17,
+          "consistencia": 7.27
+        },
+        "datos_raw": {
+          "popularidad_ahora": null,
+          "rating": 4.6,
+          "total_reviews": 933,
+          "direccion": "Av Carlos Torre Repetto 29, Zona Paseo Montejo, Centro, 97000 Mérida, Yuc., Mexico"
+        }
+      }
+    ]
+  }
+}
